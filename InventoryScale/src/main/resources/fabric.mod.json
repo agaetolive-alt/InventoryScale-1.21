@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "inventoryscale",
+  "version": "${version}",
+  "name": "Inventory Scale",
+  "description": "Scale your inventory separately from HUD",
+  "authors": ["Moehreag"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/inventoryscale/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.moehreag.inventoryscale.InventoryScaleClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.x",
+    "java": ">=21"
+  }
+}
